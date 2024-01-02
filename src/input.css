@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Press Start 2P";
+  text-align: center;
+  color: #004731;
+}
+/* color: ; */
+
+.best-moment {
+  background-image: url("../assets/bg-our.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Contoh untuk mengubah warna dan ukuran hamburger icon menggunakan hamburgers.css */
+.hamburger--elastic .hamburger-inner,
+.hamburger--elastic .hamburger-inner::before,
+.hamburger--elastic .hamburger-inner::after {
+  background-color: white; /* Ubah warna sesuai keinginan */
+  width: 30px; /* Ubah ukuran sesuai keinginan */
+  height: 3px;
+}
+
+/* Mengubah warna tombol "close" pada hamburger icon menjadi putih */
+.hamburger--elastic.is-active .hamburger-inner,
+.hamburger--elastic.is-active .hamburger-inner::before,
+.hamburger--elastic.is-active .hamburger-inner::after {
+  background-color: white !important; /* Ganti warna sesuai keinginan */
+}
