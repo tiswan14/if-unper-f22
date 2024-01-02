@@ -19,12 +19,11 @@ h1 {
   background-size: cover;
 }
 
-/* Contoh untuk mengubah warna dan ukuran hamburger icon menggunakan hamburgers.css */
 .hamburger--elastic .hamburger-inner,
 .hamburger--elastic .hamburger-inner::before,
 .hamburger--elastic .hamburger-inner::after {
-  background-color: white; /* Ubah warna sesuai keinginan */
-  width: 30px; /* Ubah ukuran sesuai keinginan */
+  background-color: white;
+  width: 30px;
   height: 3px;
 }
 
@@ -33,7 +32,4 @@ h1 {
 .hamburger--elastic.is-active .hamburger-inner::before,
 .hamburger--elastic.is-active .hamburger-inner::after {
   background-color: white !important; /* Ganti warna sesuai keinginan */
-}
-.bebek {
-  color: red;
 }

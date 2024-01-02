@@ -624,6 +624,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-\[-50px\] {
+  margin-top: -50px;
+}
+
 .block {
   display: block;
 }
@@ -644,12 +648,12 @@ video {
   height: 90px;
 }
 
-.w-\[400px\] {
-  width: 400px;
+.w-\[40\%\] {
+  width: 40%;
 }
 
-.w-\[50\%\] {
-  width: 50%;
+.w-\[400px\] {
+  width: 400px;
 }
 
 .w-\[75\%\] {
@@ -662,6 +666,10 @@ video {
 
 .w-\[92\%\] {
   width: 92%;
+}
+
+.w-\[95\%\] {
+  width: 95%;
 }
 
 .w-full {
@@ -781,16 +789,12 @@ video {
   padding-bottom: 2rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pt-1 {
@@ -801,24 +805,12 @@ video {
   padding-top: 2.5rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
-}
-
 .pt-5 {
   padding-top: 1.25rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
-.text-left {
-  text-align: left;
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
@@ -833,8 +825,8 @@ video {
   font-family: Press Start 2P;
 }
 
-.text-\[12px\] {
-  font-size: 12px;
+.text-\[11px\] {
+  font-size: 11px;
 }
 
 .text-\[13px\] {
@@ -864,6 +856,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[140px\] {
+  font-size: 140px;
 }
 
 .font-bold {
@@ -930,15 +926,11 @@ h1 {
   background-size: cover;
 }
 
-/* Contoh untuk mengubah warna dan ukuran hamburger icon menggunakan hamburgers.css */
-
 .hamburger--elastic .hamburger-inner,
 .hamburger--elastic .hamburger-inner::before,
 .hamburger--elastic .hamburger-inner::after {
   background-color: white;
-  /* Ubah warna sesuai keinginan */
   width: 30px;
-  /* Ubah ukuran sesuai keinginan */
   height: 3px;
 }
 
@@ -949,10 +941,6 @@ h1 {
 .hamburger--elastic.is-active .hamburger-inner::after {
   background-color: white !important;
   /* Ganti warna sesuai keinginan */
-}
-
-.bebek {
-  color: red;
 }
 
 .hover\:bg-\[\#006243\]:hover {
@@ -999,16 +987,12 @@ h1 {
     width: 83.333333%;
   }
 
-  .md\:w-\[100\%\] {
-    width: 100%;
-  }
-
   .md\:w-\[1050px\] {
     width: 1050px;
   }
 
-  .md\:w-\[35\%\] {
-    width: 35%;
+  .md\:w-\[30\%\] {
+    width: 30%;
   }
 
   .md\:w-\[640px\] {
@@ -1019,16 +1003,12 @@ h1 {
     width: 650px;
   }
 
-  .md\:w-\[88\%\] {
-    width: 88%;
-  }
-
-  .md\:w-\[90\%\] {
-    width: 90%;
-  }
-
   .md\:w-\[85\%\] {
     width: 85%;
+  }
+
+  .md\:w-\[88\%\] {
+    width: 88%;
   }
 
   .md\:w-full {
@@ -1073,6 +1053,14 @@ h1 {
     padding-bottom: 1.5rem;
   }
 
+  .md\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
   .md\:pb-12 {
     padding-bottom: 3rem;
   }
@@ -1081,16 +1069,12 @@ h1 {
     padding-top: 3rem;
   }
 
-  .md\:pb-10 {
-    padding-bottom: 2.5rem;
+  .md\:pt-16 {
+    padding-top: 4rem;
   }
 
   .md\:pt-6 {
     padding-top: 1.5rem;
-  }
-
-  .md\:text-center {
-    text-align: center;
   }
 
   .md\:text-4xl {
@@ -1125,5 +1109,9 @@ h1 {
 
   .md\:text-\[33px\] {
     font-size: 33px;
+  }
+
+  .md\:text-\[17px\] {
+    font-size: 17px;
   }
 }
