@@ -34,3 +34,6 @@ h1 {
 .hamburger--elastic.is-active .hamburger-inner::after {
   background-color: white !important; /* Ganti warna sesuai keinginan */
 }
+.bebek {
+  color: red;
+}
